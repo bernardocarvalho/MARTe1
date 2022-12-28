@@ -114,6 +114,9 @@ public:
     * @return False on error, True otherwise.
     */
     virtual bool ProcessHttpMessage(HttpStream &hStream);
+    // -- Was missing?
+    virtual int GetTotalSamplesCollected();
+
 };
 
 #endif
